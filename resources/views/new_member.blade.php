@@ -37,8 +37,8 @@
                                 <div class="card mb-3">
                                     <div class="card-body">
                                         <div class="mt-4 mb-4">
-                                            <div class="d-flex justify-content-center mb-2">
-                                                <img src="https://erp.uttarauniversity.edu.bd/temp/assets/img/uu_brand_logo.png" style="height: 80px" alt="logo">
+                                            <div class="d-flex justify-content-center mb-2" style="font-size: 2em">
+                                                <a href="{{url('welcome')}}" class="logo">Training Studio</a>
                                             </div>
                                         </div>
                                         <h4 class="font-weight-bold text-center text-uppercase mb-2">New member registration Form</h4>
