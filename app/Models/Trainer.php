@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Trainer extends Model
-{
+{   protected $table = 'trainers';
+    protected $primaryKey = 'id';
+    protected $fillable = ['trainer_name'];
     use HasFactory;
 }

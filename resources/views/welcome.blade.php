@@ -24,6 +24,7 @@ https://templatemo.com/tm-548-training-studio
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
     <link rel="stylesheet" href="assets/css/templatemo-training-studio.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     </head>
     
@@ -266,62 +267,30 @@ https://templatemo.com/tm-548-training-studio
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="filters">
-                        <ul class="schedule-filter">
-                            <li class="active" data-tsfilter="monday">Monday</li>
-                            <li data-tsfilter="tuesday">Tuesday</li>
-                            <li data-tsfilter="wednesday">Wednesday</li>
-                            <li data-tsfilter="thursday">Thursday</li>
-                            <li data-tsfilter="friday">Friday</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="schedule-table filtering">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="day-time">Fitness Class</td>
-                                    <td class="monday ts-item show" data-tsmeta="monday">10:00AM - 11:30AM</td>
-                                    <td class="tuesday ts-item" data-tsmeta="tuesday">2:00PM - 3:30PM</td>
-                                    <td>William G. Stewart</td>
-                                    <td><a href="#" class="btn btn-primary">Book</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Muscle Training</td>
-                                    <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
-                                    <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM</td>
-                                    <td>Paul D. Newman</td>
-                                    <td><a href="#" class="btn btn-primary">Book</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Body Building</td>
-                                    <td class="tuesday ts-item" data-tsmeta="tuesday">10:00AM - 11:30AM</td>
-                                    <td class="monday ts-item show" data-tsmeta="monday">2:00PM - 3:30PM</td>
-                                    <td>Boyd C. Harris</td>
-                                    <td><a href="#" class="btn btn-primary">Book</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Yoga Training Class</td>
-                                    <td class="wednesday ts-item" data-tsmeta="wednesday">10:00AM - 11:30AM</td>
-                                    <td class="friday ts-item" data-tsmeta="friday">2:00PM - 3:30PM</td>
-                                    <td>Hector T. Daigle</td>
-                                    <td><a href="#" class="btn btn-primary">Book</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Advanced Training</td>
-                                    <td class="thursday ts-item" data-tsmeta="thursday">10:00AM - 11:30AM</td>
-                                    <td class="wednesday ts-item" data-tsmeta="wednesday">2:00PM - 3:30PM</td>
-                                    <td>Bret D. Bowers</td>
-                                    <td><a href="#" class="btn btn-primary">Book</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+            <table>
+                <tr class="table-heading">
+                    <th>Trainer Name</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Appointment</th>
+                </tr>
+                @foreach ($data as $item)
+                    <tr>
+                        <td>{{$item->trainer_name}}</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="#" class="btn btn-primary">Book</a></td>
+                    </tr>
+                @endforeach
+            </table>
         </div>
     </section>
 
