@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomeController::class,'index']);
+Route::get('/new_member',[HomeController::class,'new_member']);
+Route::post('/new_member',[HomeController::class,'add_new_member']);
+Route::get('/member',[HomeController::class,'member']);
 Route::get('/add_trainer',[TrainerController::class,'index']);
 Route::post('/add_trainer',[TrainerController::class,'store']);
 Route::get('/dashboard', function () {

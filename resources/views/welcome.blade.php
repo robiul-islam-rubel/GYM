@@ -58,6 +58,7 @@ https://templatemo.com/tm-548-training-studio
                             <li class="scroll-to-section"><a href="#top" class="active">Dashboard</a></li>
                             <li class="scroll-to-section"><a href="#features">About</a></li>
                             <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
+                            <li class="scroll-to-section"><a href="{{url('member')}}">Members</a></li>
                             <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
                             <li class="scroll-to-section"><a href="#contact-us">Contact</a></li> 
                             <li class="main-button"><a href="#">Sign Up</a></li>
@@ -84,7 +85,7 @@ https://templatemo.com/tm-548-training-studio
                 <h6>work harder, get stronger</h6>
                 <h2>easy with our <em>gym</em></h2>
                 <div class="main-button scroll-to-section">
-                    <a href="#features">Become a member</a>
+                    <a href="{{url('new_member')}}">Become a member</a>
                 </div>
             </div>
         </div>
