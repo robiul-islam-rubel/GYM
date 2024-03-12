@@ -1,6 +1,38 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-<h1 align="center">GYM</h1>
-<hr>
+# GYM
+
+# Description
+
+In this project I just tried to build a simple website for GYM  management on laravel.
+
+# Project Objective
+The objective of the project was to learn how a dynamic website works in laravel
+
+# Key Features
+```ruby
+Add Trainers
+```
+```ruby
+Update Trainers time
+```
+```ruby
+Book Trainer
+```
+
+# Getting Started
+
+Clone the repository: git clone [https://github.com/robiul-islam-rubel/erp_managementsystem](https://github.com/robiul-islam-rubel/GYM)
+Explore Jupyter notebooks for data exploration, model building, and analysis.
+Customize model hyperparameters and try various classification techniques.
+Gain insights into feature importance for accurate species classification.
+
+# Contributions
+
+Contributions are welcome! Fork the repository, enhance the project, and create pull requests to contribute to this educational endeavor.
+
+# Disclaimer
+
+This is the simple GYM website management project for practive purposes.
+
 
 
 ## Quick Installation
